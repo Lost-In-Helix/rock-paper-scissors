@@ -15,7 +15,7 @@ body {
 section{
     height: 100vh;
     position: fixed;
-    top: 5%;
+    top: 2%;
     left: 25%;
     right: 25%;
 }
@@ -23,6 +23,7 @@ section{
 .scoreBoard{
     color: #ffbb00;
     text-shadow: 1px 1px #3f2e00;
+    margin-top: 150px;
     height: 20vh;
     display: flex;
     justify-content: space-around;
@@ -53,7 +54,6 @@ section{
 .intro h1{
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
 }
 
 .intro button, .match button{
@@ -72,10 +72,10 @@ section{
 .match{
     position: relative;
     left: 50%;
-    top: 2%;
     transform: translate(-50%, -50%);
     background-color: rgb(255, 255, 255, 0);
     display: none;
+    margin-top: -50px;
 }
 
 #result {
@@ -101,10 +101,12 @@ section{
 #playerHand {
     transform: rotateY(180deg);
     background-color: rgb(255, 255, 255, 0);
+    margin-top: -50px;
 }
 
 #compHand {
     background-color: rgb(255, 255, 255, 0);
+    margin-top: -50px;
 }
 
 #reset {
